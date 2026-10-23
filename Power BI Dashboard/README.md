@@ -1,150 +1,124 @@
-# Fashion Retail Sales Analysis – Power BI Dashboard
+# Fashion Retail Sales Analysis -- Power BI Dashboard
 
-## 📌 Project Overview
+## Project Overview
 
-This project focuses on analyzing Fashion Retail Sales data using Microsoft Power BI. The dashboard provides interactive visualizations of sales performance, profitability, customer behavior, product performance, and brand performance.
+This project analyzes fashion retail sales, customer behavior, product
+performance, and brand performance using **Power BI**. The dashboard
+turns retail data into interactive reports to help identify revenue
+trends, profitable products, customer segments, and brand performance.
 
-The objective is to transform retail sales data into meaningful visual insights that help understand business performance, identify top-performing products and brands, and support data-driven decision-making.
+## Project Objectives
 
-## 🎯 Project Objectives
+-   Monitor revenue, profit, order volume, customer count, and average
+    order value.
+-   Compare sales performance across regions and months.
+-   Identify top- and low-performing products and categories.
+-   Analyze customer spending, order size, customer type, gender, and
+    age-group patterns.
+-   Compare brand revenue and profit.
+-   Present findings through interactive dashboards and filters.
 
-- Monitor overall revenue and profitability.
-- Analyze revenue and profit across different regions.
-- Understand monthly sales and profit trends.
-- Identify top customers and analyze customer purchasing behavior.
-- Compare product sales and profitability.
-- Evaluate brand performance based on revenue and profit.
-- Analyze customer segments, gender, and age groups.
-- Present business insights through interactive dashboards.
+## Tools Used
 
-## 🛠️ Tools and Technologies
+-   **Power BI** -- dashboard design and data visualization
+-   **Power Query** -- data preparation and transformation
+-   **DAX** -- measures and KPI calculations
 
-- **Microsoft Power BI Desktop** – Dashboard development and data visualization
-- **Power Query** – Data preparation and transformation
-- **DAX** – KPI calculations and business measures
-- **CSV Dataset** – Retail sales data source
+## Key Performance Indicators
 
-## 📊 Dashboard Overview
+  KPI                            Result
+  --------------------------- ---------
+  Total Revenue                 ₹12.23M
+  Total Profit                   ₹3.45M
+  Profit Margin                  28.20%
+  Total Customers                 1,350
+  Total Orders                    4,000
+  Average Order Value (AOV)      ₹3,058
 
-The Power BI dashboard consists of four main analytical pages.
+## Dashboard Pages
 
-### 1. Sales Overview
+### 1. Executive Dashboard
 
-This page provides a high-level view of the business's sales and profitability.
+Shows overall business performance, key KPIs, revenue by region, monthly
+revenue and profit trends, top products by revenue, and revenue by
+product category.
 
-**Key KPIs:**
-- Total Revenue: ₹12.23M
-- Total Profit: ₹3.45M
-- Profit Margin: 28.20%
-- Total Customers: 1,350
-- Total Orders: 4,000
-- Average Order Value (AOV): ₹3,058
-
-**Visualizations:**
-- Total Revenue by Region
-- Monthly Revenue and Profit Trends
-- Top 10 Products by Revenue
-- Revenue and Profit by Product Category
-- Interactive filters for region, quarter, and month
+![Executive Dashboard](images/Executive_Dashboard.jpg)
 
 ### 2. Customer Sales Analysis
 
-This page focuses on customer purchasing behavior and sales contribution.
+Explores customer sales and profit, customer rankings, order size,
+customer segments, customer types, gender-wise sales, and sales by age
+group.
 
-**Visualizations:**
-- Top Customers by Sales
-- Top Customers by Order Size
-- Customer Segment-wise Sales
-- Sales and Profit by Customer Type
-- Gender-wise Sales Distribution
-- Age Group-wise Sales Distribution
-
-**Key Findings:**
-- The dataset contains 1,350 customers.
-- Vivek Chatterjee is the highest-revenue customer, contributing approximately ₹336.47K.
-- B2C customers contribute approximately ₹6.43M in sales, compared with approximately ₹5.75M from B2B customers.
-- Customer sales are analyzed across One-Time, Occasional, and Frequent customer groups.
+![Customer Sales Analysis](images/Customer_Analysis.jpg)
 
 ### 3. Product Analysis
 
-This page evaluates product performance based on revenue and profitability.
+Compares top and bottom products by revenue and profit, returned versus
+non-returned orders, product performance, and category-level sales.
 
-**Visualizations:**
-- Top 5 Products by Revenue
-- Top 5 Products by Profit
-- Bottom 5 Products by Revenue
-- Bottom 5 Products by Profit
-- Return and Non-Return Proportions
-- Revenue by Product Performance
-- Product-wise Sales and Profit
-
-**Key Findings:**
-- Casual Sneakers is the top product by revenue, generating approximately ₹569.75K.
-- Hoodie generates approximately ₹484.64K in revenue.
-- Running Shoes generates approximately ₹483.58K in revenue.
-- Oversized T-Shirt is the most profitable product, generating approximately ₹151.72K in profit.
-- Leather Belt is the lowest-performing product by revenue, generating approximately ₹77.39K.
-- Approximately 92.65% of orders were not returned, while 7.35% were returned.
+![Product Analysis](images/Product_Analysis.jpg)
 
 ### 4. Brand Analysis
 
-This page compares brand performance using sales and profit metrics.
+Compares brands by sales and profit, highlights the top and bottom
+brands, and displays brand-wise product sales and total profit.
 
-**Visualizations:**
-- Top 5 Brands by Sales
-- Top 5 Brands by Profit
-- Bottom 5 Brands by Sales
-- Bottom 5 Brands by Profit
-- Brand-wise Product Sales
-- Brand-wise Revenue and Profit Comparison
+![Brand Analysis](images/Brand_Analysis.jpg)
 
-**Key Findings:**
-- FashionNest leads the brands by revenue, generating approximately ₹2.23M.
-- StyleCraft ranks second in revenue, generating approximately ₹2.04M.
-- ModeStreet ranks third in revenue, generating approximately ₹1.91M.
-- ModeStreet generates the highest profit among the displayed top brands, at approximately ₹586.51K.
-- VogueLine appears among the lowest-performing brands by both revenue and profit in the dashboard comparisons.
+## Key Insights
 
-## 💡 Key Business Insights
+-   The dashboard reports **₹12.23M in revenue** and **₹3.45M in
+    profit**, with a **28.20% profit margin**.
+-   The **West** region has the highest revenue among the regions shown.
+-   **October** is the strongest month by revenue in the displayed
+    monthly trend.
+-   **Casual Sneakers** is the top product by revenue, at approximately
+    **₹569.75K**.
+-   **T-Shirts** is the leading product category by revenue, at
+    approximately **₹1.70M**.
+-   **FashionNest** leads the displayed brands by revenue, while
+    **ModeStreet** leads the displayed top five brands by profit.
+-   The return analysis shows **294 returned orders (7.35%)** and
+    **3,706 non-returned orders (92.65%)**.
 
-1. **Regional Performance:** The West region generates the highest revenue at approximately ₹4.7M, followed by South at approximately ₹4.2M.
-2. **Product Performance:** Casual Sneakers leads product revenue, while Oversized T-Shirt leads product profit.
-3. **Customer Contribution:** The dashboard identifies high-value customers and compares sales across customer types and segments.
-4. **Brand Performance:** FashionNest leads in revenue, while ModeStreet leads in profit among the displayed top brands.
-5. **Returns:** Approximately 7.35% of orders are marked as returned, providing an opportunity to investigate return patterns.
-6. **Profitability:** The overall profit margin is 28.20%, providing a baseline for monitoring business profitability.
+These observations describe patterns shown in the dashboard and do not,
+by themselves, establish the causes behind sales or profit differences.
 
-## 📈 Business Value
+## Interactive Features
 
-The dashboard helps management:
+Filters and slicers let users explore data by fields such as region,
+quarter, month, and brand.
 
-- Monitor key business performance indicators.
-- Identify high-performing and low-performing products and brands.
-- Compare sales and profitability across regions.
-- Understand customer purchasing patterns.
-- Track monthly revenue and profit trends.
-- Investigate product returns and customer segments.
-- Make informed decisions about pricing, promotions, inventory, and sales strategies.
+## Repository Structure
 
-## 📁 Repository Contents
+``` text
+Fashion-Retail-Sales-Analysis/
+├── README.md
+├── Fashion_Retail_Sales.pbix
+└── images/
+    ├── Executive_Dashboard.jpg
+    ├── Customer_Analysis.jpg
+    ├── Product_Analysis.jpg
+    └── Brand_Analysis.jpg
+```
 
-- `Fashion_Retail_Sales(2).pbix` – Interactive Power BI dashboard.
-- `Fashion_Retail_Sales.pdf` – Exported PDF containing the dashboard pages.
+Ensure the image filenames and folder names in your repository match the
+paths used above. If your Power BI file has a different name, update the
+repository structure accordingly.
 
-## 🚀 How to Use the Dashboard
+## How to Use
 
-1. Download the `.pbix` file from this repository.
-2. Open it using Microsoft Power BI Desktop.
-3. Explore the Sales Overview, Customer Analysis, Product Analysis, and Brand Analysis pages.
-4. Use the available slicers to filter data by region, quarter, month, or brand where applicable.
-5. Review the visualizations and KPIs to explore business performance.
+1.  Download or clone this repository.
+2.  Open the `.pbix` file in Microsoft Power BI Desktop.
+3.  Use the slicers and filters to explore the dashboard.
+4.  Refer to the screenshots above for a preview of each page.
 
-## ✅ Conclusion
+## Conclusion
 
-This project demonstrates how Microsoft Power BI can be used to transform retail sales data into interactive dashboards and actionable business insights. By analyzing sales, profitability, customers, products, and brands, the project provides a clear view of retail performance and supports data-driven decision-making.
-
-## 👨‍💻 Author
-
-**Data Analytics Portfolio Project**
-
-Skills demonstrated: Power BI, DAX, Data Visualization, KPI Development, Business Analysis, and Data-Driven Decision-Making.
+This project demonstrates how Power BI can be used to build an
+interactive retail analytics dashboard covering overall sales, customer
+behavior, product performance, and brand profitability. It showcases
+practical skills in KPI reporting, data visualization, and communicating
+data-driven business insights.
